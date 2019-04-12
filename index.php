@@ -20,7 +20,7 @@
     define('constante','pi');
     echo constante;
 
-//ciclos 
+//ciclos
 $edad = 18;
 
 if($edad == 18){
@@ -28,5 +28,23 @@ if($edad == 18){
 }else{
   echo "Es menor de edad";
 }
+$opc= 2;
+switch ($opc) {
+  case 2:
+    echo "La variable es 2 ";
+    break;
+  case 1:
+  echo "La variable no es 2";
+    break;
+
+  default:
+    # code...
+    break;
+}
+
+
+
+
+
 
      ?>
