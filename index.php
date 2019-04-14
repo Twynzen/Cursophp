@@ -57,6 +57,23 @@ echo $x;
 echo "<br>";
  $x++;
 }
+echo "<br>";
+echo "Fecha del día de hoy: ". date('d-m-y');
+echo "<br>";
+echo "El día de hoy es: ". date('d');
+echo "<br>";
+echo "El mes actual es: ". date('M');
+echo "<br>";
+echo "El mes actual es: ". date('F');
+echo "<br>";
+echo "El numero de la semana actual es: ". date('W');
+echo "<br>";
+echo "El numero de día actual es: ". date('w');
+echo "<br>";
+echo "Cuantos días tiene el mes: ". date('t');
+
+
+
 
 
 
