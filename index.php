@@ -57,6 +57,8 @@ echo $x;
 echo "<br>";
  $x++;
 }
+
+//fechas
 echo "<br>";
 echo "Fecha del día de hoy: ". date('d-m-y');
 echo "<br>";
@@ -71,6 +73,70 @@ echo "<br>";
 echo "El numero de día actual es: ". date('w');
 echo "<br>";
 echo "Cuantos días tiene el mes: ". date('t');
+
+//Operadores Logicos
+/*AND &&
+OR ||
+gmp_zor(a, b);*/
+echo "<br>";
+$var1 = 1;
+$var2 = 2;
+if ($var1 == 1 AND $var2 == 2 ) {
+  echo "cumple la condicion";
+}else {
+  echo "No cumple la condicion";
+}
+echo "<br>";
+
+if ($var1 == 1 Xor $var2 == 3 ) {
+  echo "cumple la condicion";
+}else {
+  echo "No cumple la condicion";
+}
+
+//Operadores aritmeticos + * - / % **
+$var_1 = 100;
+$var_2 = 10;
+echo "<br>";
+echo $var_1 * $var_2;
+echo "<br>";
+echo $var_1 - $var_2;
+echo "<br>";
+echo $var_1 + $var_2;
+echo "<br>";
+echo $var_1 / $var_2;
+$var_3 = 7;
+$var_4 = 3;
+echo "<br>";
+echo $var_3 % $var_4;
+echo "<br>";
+echo $var_3 ** $var_4;
+
+// operadores de comparacion
+/*
+== igual
+=== identico
+!= o <> diferente
+!== No identico
+< menor que
+> mayor que
+*/
+//manejo de cadenas
+$cadena = "Que MA pue";
+echo strlen($cadena);
+echo "<br>";
+echo str_replace('p','P',$cadena);
+echo "<br>";
+echo strtolower($cadena);//pone la cadena en minusculas
+echo "<br>";
+echo strtoupper($cadena);// pone la cadena en mayusculas
+echo "<br>";
+echo substr($cadena,0,3);
+echo "<br>";
+echo substr($cadena,4,7);
+
+
+
 
 
 
